@@ -10,7 +10,7 @@
                         </div>
                         <ul class="footer-widget__list">
                             <li>Shankamul, New Baneshwor, Kathmandu</li>
-                            <li><a href="mailto:contact@aeroland.com" class="hover-style-link">contact@aeroland.com</a>
+                            <li><a href="mailto:merovision@gmail.com" class="hover-style-link">merovision@gmail.com</a>
                             </li>
                             <li><a href="tel:123344556" class="hover-style-link text-black font-weight--bold">(+977)9825915122</a></li>
                             <li><a href="https://merovision.com/"
@@ -37,24 +37,23 @@
                         </ul>
                     </div>
                     <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                        <h6 class="footer-widget__title mb-20">Support</h6>
+                        <h6 class="footer-widget__title mb-20">Services</h6>
                         <ul class="footer-widget__list">
-                            <li><a href="#" class="hover-style-link">Forum Support</a></li>
-                            <li><a href="#" class="hover-style-link">Help & FAQ</a></li>
-                            <li><a href="#" class="hover-style-link">Contact Us</a></li>
-                            <li><a href="#" class="hover-style-link">Pricing and plans</a></li>
-                            <li><a href="#" class="hover-style-link">Cookies Policy</a></li>
+                            <li><a href="#" class="hover-style-link">Web App Development</a></li>
+                            <li><a href="#" class="hover-style-link">Website/eCommerce</a></li>
+                            <li><a href="#" class="hover-style-link">Mobile App Development</a></li>
+                            <li><a href="#" class="hover-style-link">Desktop App Development</a></li>
+                            <li><a href="#" class="hover-style-link">AI Projects</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                        <div class="footer-widget__title section-space--mb_50"></div>
+                     <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
+                        <h6 class="footer-widget__title mb-20">Technology</h6>
                         <ul class="footer-widget__list">
-                            <li><a href="#" class="image_btn" aria-label="Google play Button"><img
-                                        class="img-fluid" src="assets/images/icons/aeroland-button-google-play.webp"
-                                        alt=""></a></li>
-                            <li><a href="#" class="image_btn" aria-label="App Store Button"><img class="img-fluid"
-                                        src="assets/images/icons/aeroland-button-app-store.webp" alt=""></a>
-                            </li>
+                            <li><a href="#" class="hover-style-link">Laravel/PHP</a></li>
+                            <li><a href="#" class="hover-style-link">Flutter</a></li>
+                            <li><a href="#" class="hover-style-link">React</a></li>
+                            <li><a href="#" class="hover-style-link">Django</a></li>
+                            <li><a href="#" class="hover-style-link">.NET</a></li>
                         </ul>
                     </div>
                 </div>
