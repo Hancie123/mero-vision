@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\OurTeamController;
 use App\Http\Controllers\TechnologyStackController;
 use Illuminate\Support\Facades\Route;
 
@@ -22,3 +23,5 @@ Route::get('/', function () {
 
 Route::get('about',[AboutController::class,'index']);
 Route::get('technology-stack', [TechnologyStackController::class, 'index']);
+
+Route::get('our-team', [OurTeamController::class, 'index']);

@@ -103,16 +103,16 @@
                                                   <li class="has-children has-children--multilevel-submenu">
                                                       <a href="#"><span>About</span></a>
                                                       <ul class="submenu">
-                                                          <li class="{{ Request()->is('/about') ? 'active' : '' }}">
+                                                          <li class="{{ Request()->is('about') ? 'active' : '' }}">
                                                               <a href="{{ url('about') }}"><span
                                                                       class="text-dark">About Us</span></a>
 
                                                           </li>
-                                                          <li><a href="managed-it-service.html"><span
+                                                          <li class="{{ Request()->is('our-team') ? 'active' : '' }}"><a href="{{url('our-team')}}"><span
                                                                       class="text-dark">Our
                                                                       Team</span></a></li>
                                                           <li
-                                                              class="{{ Request()->is('/technology-stack') ? 'active' : '' }}">
+                                                              class="{{ Request()->is('technology-stack') ? 'active' : '' }}">
                                                               <a href="technology-stack"><span
                                                                       class="text-dark">Technology
                                                                       Stacks</span></a>
