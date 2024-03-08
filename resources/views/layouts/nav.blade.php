@@ -52,9 +52,11 @@
                                                           </li>
                                                           <li><a href="managed-it-service.html"><span>Our
                                                                       Team</span></a></li>
-                                                          <li><a href="industries.html"><span>Technology
+                                                          <li
+                                                              class="{{ Request()->is('/technology-stack') ? 'active' : '' }}">
+                                                              <a href="technology-stack"><span>Technology
                                                                       Stacks</span></a></li>
-                                                         
+
                                                       </ul>
                                                   </li>
 

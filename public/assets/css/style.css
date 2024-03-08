@@ -688,7 +688,7 @@ input[type=checkbox] {
   background-size: cover;
   z-index: 3;
   position: relative;
-  background-image: url(../images/bg/title-bar-01-bg.webp);
+  background-image: url(../img/title-bar-01-bg.webp);
 }
 @media only screen and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .breadcrumb-area {
@@ -4782,14 +4782,14 @@ ul.footer-widget__horizontal-list li {
 =============================================*/
 .cta-bg-image_one {
   background-color: #454545;
-  background-image: url(../images/patterns/mitech-call-to-action-image-global.webp);
+  background-image: url(../img/call-to-action-image-global.webp);
   background-repeat: no-repeat;
   background-position: top 35% right -68px;
 }
 
 .cta-bg-image_two {
   background-color: #f6f2ed;
-  background-image: url(../images/patterns/mitech-home-appointment-call-to-action-bg-image.webp);
+  background-image: url(../img/home-appointment-call-to-action-bg-image.webp);
   background-repeat: no-repeat;
   background-position: top right;
 }
