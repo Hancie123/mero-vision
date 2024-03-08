@@ -24,7 +24,7 @@
                       <div class="header__logo">
                           <a href="{{ url('/') }}">
                               <img src="{{ url('assets/img/logo.png') }}" aria-label="Mitech Logo" width="160"
-                                  height="48" class="img-fluid" alt="">
+                                  height="10" class="img-fluid" alt="">
                           </a>
                       </div>
 
@@ -43,19 +43,68 @@
 
                                                   </li>
 
+
+
+
+
+                                                  <li class="has-children">
+                                                      <a href="#"><span>Technology</span></a>
+                                                      <!-- mega menu -->
+                                                      <ul class="megamenu megamenu--mega">
+                                                          <li>
+                                                              <h2 class="page-list-title">Mobile</h2>
+                                                              <ul>
+                                                                  <li class="text-dark"><span>Flutter App
+                                                                          Development</span></li>
+
+                                                              </ul>
+                                                          </li>
+                                                          <li>
+                                                              <h2 class="page-list-title">Progessive Web App</h2>
+                                                              <ul>
+                                                                  <li class="text-dark"><span>Laravel/PHP</span></li>
+                                                              </ul>
+
+
+                                                              <h2 class="page-list-title mt-4">Desktop Application</h2>
+                                                              <ul>
+                                                                  <li class="text-dark"><span>Python</span></li>
+                                                                  <li class="text-dark"><span>.NET</span></li>
+                                                                  <li class="text-dark"><span>Java/Swing</span></li>
+                                                              </ul>
+                                                          </li>
+                                                          <li>
+                                                              <h2 class="page-list-title">Website/eCommerce</h2>
+                                                              <ul>
+                                                                  <li class="text-dark"><span>WordPress</span></li>
+                                                                  <li class="text-dark"><span>eCommerce Web Design</span></li>
+                                                              </ul>
+                                                          </li>
+                                                          <li>
+                                                              <h2 class="page-list-title">Frontend Development</h2>
+                                                              <ul>
+                                                                  <li class="text-dark"><span>ReactJS</span></li>
+                                                              </ul>
+                                                          </li>
+                                                      </ul>
+                                                  </li>
+
+
+
                                                   <li class="has-children has-children--multilevel-submenu">
                                                       <a href="#"><span>About</span></a>
                                                       <ul class="submenu">
                                                           <li class="{{ Request()->is('/about') ? 'active' : '' }}">
-                                                              <a href="{{ url('about') }}"><span>About Us</span></a>
+                                                              <a href="{{ url('about') }}"><span class="text-dark">About Us</span></a>
 
                                                           </li>
-                                                          <li><a href="managed-it-service.html"><span>Our
+                                                          <li><a href="managed-it-service.html"><span class="text-dark">Our
                                                                       Team</span></a></li>
                                                           <li
                                                               class="{{ Request()->is('/technology-stack') ? 'active' : '' }}">
-                                                              <a href="technology-stack"><span>Technology
-                                                                      Stacks</span></a></li>
+                                                              <a href="technology-stack"><span class="text-dark">Technology
+                                                                      Stacks</span></a>
+                                                          </li>
 
                                                       </ul>
                                                   </li>
