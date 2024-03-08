@@ -29,7 +29,7 @@
                         <h1 class="breadcrumb-title text-color-primary">Our Team</h1>
                         <!-- breadcrumb-list start -->
                         <ul class="breadcrumb-list">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
                             <li class="breadcrumb-item active">Our Team</li>
                         </ul>
                         <!-- breadcrumb-list end -->
@@ -63,11 +63,11 @@
                                             <img class="img-fluid" src="{{url('assets/img/our_team/team-1.jpg')}}" alt="">
                                             <div class="social-networks">
                                                 <div class="inner">
-                                                    <a target="_blank" href="#" class=" hint--bounce  hint--top hint--theme-two" aria-label="Facebook"><i class="fab fa-facebook"></i>
+                                                    <a target="_blank" href="https://www.facebook.com/hanciephago720" class=" hint--bounce  hint--top hint--theme-two" aria-label="Facebook"><i class="fab fa-facebook"></i>
                                                     </a>
-                                                    <a target="_blank" href="#" class=" hint--bounce hint--top hint--theme-two" aria-label="Twitter"><i class="fab fa-twitter"></i>
+                                                    <a target="_blank" href="https://twitter.com/hancie_phago" class=" hint--bounce hint--top hint--theme-two" aria-label="Twitter"><i class="fab fa-twitter"></i>
                                                     </a>
-                                                    <a target="_blank" href="#" class=" hint--bounce hint--top hint--theme-two" aria-label="Instagram"><i class="fab fa-instagram"></i>
+                                                    <a target="_blank" href="https://www.instagram.com/hancie720/" class=" hint--bounce hint--top hint--theme-two" aria-label="Instagram"><i class="fab fa-instagram"></i>
                                                     </a>
                                                 </div>
                                             </div>
@@ -86,11 +86,11 @@
                                             <img class="img-fluid" src="{{url('assets/img/our_team/team-2.jpg')}}" alt="">
                                             <div class="social-networks">
                                                 <div class="inner">
-                                                    <a target="_blank" href="#" class=" hint--bounce  hint--top hint--theme-two" aria-label="Facebook"><i class="fab fa-facebook"></i>
+                                                    <a target="_blank" href="https://www.facebook.com/nitesh.ham" class=" hint--bounce  hint--top hint--theme-two" aria-label="Facebook"><i class="fab fa-facebook"></i>
                                                     </a>
-                                                    <a target="_blank" href="#" class=" hint--bounce hint--top hint--theme-two" aria-label="Twitter"><i class="fab fa-twitter"></i>
+                                                    <a target="_blank" href="https://twitter.com/NiteshHamal1" class=" hint--bounce hint--top hint--theme-two" aria-label="Twitter"><i class="fab fa-twitter"></i>
                                                     </a>
-                                                    <a target="_blank" href="#" class=" hint--bounce hint--top hint--theme-two" aria-label="Instagram"><i class="fab fa-instagram"></i>
+                                                    <a target="_blank" href="https://www.instagram.com/niteshhamal/" class=" hint--bounce hint--top hint--theme-two" aria-label="Instagram"><i class="fab fa-instagram"></i>
                                                     </a>
                                                 </div>
                                             </div>
