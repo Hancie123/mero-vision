@@ -527,12 +527,11 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 col-lg-6">
                             <div class="conact-us-wrap-one">
-                                <h3 class="heading">Obtaining further information by <span
+                                <h3 class="heading">Obtain further information by <span
                                         class="text-color-primary">make a contact</span> with our experienced IT
                                     staffs. </h3>
 
-                                <div class="sub-heading">We’re available for 8 hours a day!<br>Contact to require a
-                                    detailed analysis and assessment of your plan.</div>
+                                <div class="sub-heading">Have questions or want to discuss your project? Contact us now for personalized IT solutions that propel your business forward.</div>
 
                             </div>
                         </div>
