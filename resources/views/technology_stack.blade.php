@@ -93,7 +93,7 @@
 
                                             </div>
                                             <div class="col-2">
-                                                <img src="{{ url('assets/img/icons/reactJs.svg') }}"
+                                                <img src="{{ url('assets/img/icons/reactJS.svg') }}"
                                                     style="max-width: 50px;" />
 
                                             </div>
