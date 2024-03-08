@@ -109,11 +109,11 @@
                                             <img class="img-fluid" src="{{url('assets/img/our_team/team-3.jpg')}}" alt="">
                                             <div class="social-networks">
                                                 <div class="inner">
-                                                    <a target="_blank" href="#" class=" hint--bounce  hint--top hint--theme-two" aria-label="Facebook"><i class="fab fa-facebook"></i>
+                                                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100085278731525" class=" hint--bounce  hint--top hint--theme-two" aria-label="Facebook"><i class="fab fa-facebook"></i>
                                                     </a>
                                                     <a target="_blank" href="#" class=" hint--bounce hint--top hint--theme-two" aria-label="Twitter"><i class="fab fa-twitter"></i>
                                                     </a>
-                                                    <a target="_blank" href="#" class=" hint--bounce hint--top hint--theme-two" aria-label="Instagram"><i class="fab fa-instagram"></i>
+                                                    <a target="_blank" href="https://www.instagram.com/azzaya_timsina01/" class=" hint--bounce hint--top hint--theme-two" aria-label="Instagram"><i class="fab fa-instagram"></i>
                                                     </a>
                                                 </div>
                                             </div>
