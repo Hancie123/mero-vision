@@ -77,7 +77,8 @@
                                                               <h2 class="page-list-title">Website/eCommerce</h2>
                                                               <ul>
                                                                   <li class="text-dark"><span>WordPress</span></li>
-                                                                  <li class="text-dark"><span>eCommerce Web Design</span></li>
+                                                                  <li class="text-dark"><span>eCommerce Web
+                                                                          Design</span></li>
                                                               </ul>
                                                           </li>
                                                           <li>
@@ -89,24 +90,40 @@
                                                       </ul>
                                                   </li>
 
+                                                  <li class="{{ Request()->is('/blog') ? 'active' : '' }}">
+                                                      <a href="{{ url('#') }}"><span>Projects</span></a>
 
+                                                  </li>
+
+                                                  <li class="{{ Request()->is('/blog') ? 'active' : '' }}">
+                                                      <a href="{{ url('#') }}"><span>Blog</span></a>
+
+                                                  </li>
 
                                                   <li class="has-children has-children--multilevel-submenu">
                                                       <a href="#"><span>About</span></a>
                                                       <ul class="submenu">
                                                           <li class="{{ Request()->is('/about') ? 'active' : '' }}">
-                                                              <a href="{{ url('about') }}"><span class="text-dark">About Us</span></a>
+                                                              <a href="{{ url('about') }}"><span
+                                                                      class="text-dark">About Us</span></a>
 
                                                           </li>
-                                                          <li><a href="managed-it-service.html"><span class="text-dark">Our
+                                                          <li><a href="managed-it-service.html"><span
+                                                                      class="text-dark">Our
                                                                       Team</span></a></li>
                                                           <li
                                                               class="{{ Request()->is('/technology-stack') ? 'active' : '' }}">
-                                                              <a href="technology-stack"><span class="text-dark">Technology
+                                                              <a href="technology-stack"><span
+                                                                      class="text-dark">Technology
                                                                       Stacks</span></a>
                                                           </li>
 
                                                       </ul>
+                                                  </li>
+
+                                                  <li class="{{ Request()->is('/blog') ? 'active' : '' }}">
+                                                      <a href="{{ url('#') }}"><span>Careers</span></a>
+
                                                   </li>
 
 

@@ -353,28 +353,28 @@
                         <div class="grid-item  wow move-up">
                             <div class="fun-fact--one text-center">
                                 <h5 class="fun-fact__title">Successfully work <br> with </h5>
-                                <div class="fun-fact__count counter">1056</div>
+                                <div class="fun-fact__count counter">15</div>
                                 <span class="fun-fact__text">HAPPY CLIENTS</span>
                             </div>
                         </div>
                         <div class="grid-item  wow move-up">
                             <div class="fun-fact--one text-center">
                                 <h5 class="fun-fact__title">Successfully <br> completed</h5>
-                                <div class="fun-fact__count counter">491</div>
+                                <div class="fun-fact__count counter">50</div>
                                 <span class="fun-fact__text">Finished projects</span>
                             </div>
                         </div>
                         <div class="grid-item  wow move-up">
                             <div class="fun-fact--one text-center">
                                 <h5 class="fun-fact__title">Recruit more <br> than</h5>
-                                <div class="fun-fact__count counter">245</div>
+                                <div class="fun-fact__count counter">10</div>
                                 <span class="fun-fact__text">SKilled Experts</span>
                             </div>
                         </div>
                         <div class="grid-item  wow move-up">
                             <div class="fun-fact--one text-center">
                                 <h5 class="fun-fact__title">Blog <br> update </h5>
-                                <div class="fun-fact__count counter">1090</div>
+                                <div class="fun-fact__count counter">20</div>
                                 <span class="fun-fact__text">Media Posts</span>
                             </div>
                         </div>
