@@ -22,7 +22,7 @@
 
                             <!-- brand logo -->
                             <div class="header__logo">
-                                <a href="index.html">
+                                <a href="{{url('/')}}">
                                     <img src="{{url('assets/img/logo.png')}}" aria-label="Mitech Logo" width="160" height="48" class="img-fluid" alt="">
                                 </a>
                             </div>
@@ -37,19 +37,9 @@
                                                 <nav class="navigation-menu primary--menu">
 
                                                     <ul>
-                                                        <li class="has-children has-children--multilevel-submenu">
-                                                            <a href="#"><span>Home</span></a>
-                                                            <ul class="submenu">
-                                                                <li><a href="index-infotechno.html"><span>Software & Techology</span></a></li>
-                                                                <li><a href="index-processing.html"><span>Startup Business</span></a></li>
-                                                                <li><a href="index-appointment.html"><span>IT Agency</span></a></li>
-                                                                <li><a href="index-services.html"><span>IT Services</span></a></li>
-                                                                <li><a href="index-resolutions.html"><span>IT Solution</span></a></li>
-                                                                <li><a href="index-cybersecurity.html"><span>Cyber Security</span></a></li>
-                                                                <li><a href="index-modern-it-company.html"><span>Modern IT Company</span></a></li>
-                                                                <li><a href="index-machine-learning.html"><span>Machine Learning</span></a></li>
-                                                                <li><a href="index-software-innovation.html"><span>Software Innovation</span></a></li>
-                                                            </ul>
+                                                        <li class="{{Request()->is('/')?"active":""}}">
+                                                            <a href="{{url('/')}}"><span>Home</span></a>
+                                                           
                                                         </li>
                                                         <li class="has-children has-children--multilevel-submenu">
                                                             <a href="#"><span>Company</span></a>
