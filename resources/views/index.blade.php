@@ -269,9 +269,7 @@
                                 </div>
                             </div>
 
-                            <div class="section-under-heading text-center section-space--mt_60 section-space--pt_30">
-                                Challenges are just opportunities in disguise. <a href="#">Take the
-                                    challenge!</a></div>
+                          
 
                         </div>
                     </div>
