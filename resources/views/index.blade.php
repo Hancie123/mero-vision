@@ -61,7 +61,7 @@
 
 
             <!--====================  brand logo slider area ====================-->
-            <div class="brand-logo-slider-area section-space--ptb_60">
+            {{-- <div class="brand-logo-slider-area section-space--ptb_60">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -161,7 +161,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!--====================  End of brand logo slider area  ====================-->
             <!--===========  feature-images-wrapper  Start =============-->
             <div class="feature-images-wrapper bg-gray section-space--ptb_100">

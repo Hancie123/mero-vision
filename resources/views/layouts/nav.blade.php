@@ -1,5 +1,5 @@
   <!--====================  header area ====================-->
-    {{-- <div class="header-area header-area--default">
+  {{-- <div class="header-area header-area--default">
 
         <!-- Header Top Wrap Start -->
         <div class="header-top-wrap border-bottom">
@@ -11,87 +11,100 @@
                 </div>
             </div>
         </div> --}}
-        <!-- Header Top Wrap End -->
+  <!-- Header Top Wrap End -->
 
-        <!-- Header Bottom Wrap Start -->
-        <div class="header-bottom-wrap header-sticky">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="header default-menu-style position-relative">
+  <!-- Header Bottom Wrap Start -->
+  <div class="header-bottom-wrap header-sticky">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="header default-menu-style position-relative">
 
-                            <!-- brand logo -->
-                            <div class="header__logo">
-                                <a href="{{url('/')}}">
-                                    <img src="{{url('assets/img/logo.png')}}" aria-label="Mitech Logo" width="160" height="48" class="img-fluid" alt="">
-                                </a>
-                            </div>
+                      <!-- brand logo -->
+                      <div class="header__logo">
+                          <a href="{{ url('/') }}">
+                              <img src="{{ url('assets/img/logo.png') }}" aria-label="Mitech Logo" width="160"
+                                  height="48" class="img-fluid" alt="">
+                          </a>
+                      </div>
 
-                            <!-- header midle box  -->
-                            <div class="header-midle-box">
-                                <div class="header-bottom-wrap d-md-block d-none">
-                                    <div class="header-bottom-inner">
-                                        <div class="header-bottom-left-wrap">
-                                            <!-- navigation menu -->
-                                            <div class="header__navigation d-none d-xl-block">
-                                                <nav class="navigation-menu primary--menu">
+                      <!-- header midle box  -->
+                      <div class="header-midle-box">
+                          <div class="header-bottom-wrap d-md-block d-none">
+                              <div class="header-bottom-inner">
+                                  <div class="header-bottom-left-wrap">
+                                      <!-- navigation menu -->
+                                      <div class="header__navigation d-none d-xl-block">
+                                          <nav class="navigation-menu primary--menu">
 
-                                                    <ul>
-                                                        <li class="{{Request()->is('/')?"active":""}}">
-                                                            <a href="{{url('/')}}"><span>Home</span></a>
-                                                           
-                                                        </li>
+                                              <ul>
+                                                  <li class="{{ Request()->is('/') ? 'active' : '' }}">
+                                                      <a href="{{ url('/') }}"><span>Home</span></a>
 
-                                                        <li class="{{Request()->is('/about')?"active":""}}">
-                                                            <a href="{{url('about')}}"><span>About</span></a>
-                                                           
-                                                        </li>
-                                                        
-                                                        
-                                                    </ul>
-                                                </nav>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                                  </li>
 
-                            </div>
+                                                  <li class="has-children has-children--multilevel-submenu">
+                                                      <a href="#"><span>About</span></a>
+                                                      <ul class="submenu">
+                                                          <li class="{{ Request()->is('/about') ? 'active' : '' }}">
+                                                              <a href="{{ url('about') }}"><span>About Us</span></a>
 
-                            <!-- header right box -->
-                            <div class="header-right-box">
-                                <div class="header-right-inner" id="hidden-icon-wrapper">
+                                                          </li>
+                                                          <li><a href="managed-it-service.html"><span>Our
+                                                                      Team</span></a></li>
+                                                          <li><a href="industries.html"><span>Technology
+                                                                      Stacks</span></a></li>
+                                                         
+                                                      </ul>
+                                                  </li>
 
-                                   
 
-                                    <!-- header-search-form -->
-                                    <div class="header-search-form default-search">
-                                        <form action="#" class="search-form-top">
-                                            <input class="search-field" type="text" placeholder="Search…">
-                                            <button class="search-submit">
-                                                <i class="search-btn-icon fa fa-search"></i>
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
 
-                                <!-- mobile menu -->
-                                <div class="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
-                                    <i></i>
-                                </div>
-                                <!-- hidden icons menu -->
-                                <div class="hidden-icons-menu d-block d-md-none" id="hidden-icon-trigger">
-                                    <a href="javascript:void(0)">
-                                        <i class="far fa-ellipsis-h-alt"></i>
-                                    </a>
-                                </div>
-                            </div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Header Bottom Wrap End -->
+                                              </ul>
+                                          </nav>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
 
-    </div>
-    <!--====================  End of header area  ====================-->
+                      </div>
+
+                      <!-- header right box -->
+                      <div class="header-right-box">
+                          <div class="header-right-inner" id="hidden-icon-wrapper">
+
+
+
+                              <!-- header-search-form -->
+                              <div class="header-search-form default-search">
+                                  <form action="#" class="search-form-top">
+                                      <input class="search-field" type="text" placeholder="Search…">
+                                      <button class="search-submit">
+                                          <i class="search-btn-icon fa fa-search"></i>
+                                      </button>
+                                  </form>
+                              </div>
+                          </div>
+
+                          <!-- mobile menu -->
+                          <div class="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
+                              <i></i>
+                          </div>
+                          <!-- hidden icons menu -->
+                          <div class="hidden-icons-menu d-block d-md-none" id="hidden-icon-trigger">
+                              <a href="javascript:void(0)">
+                                  <i class="far fa-ellipsis-h-alt"></i>
+                              </a>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Header Bottom Wrap End -->
+
+  </div>
+  <!--====================  End of header area  ====================-->
