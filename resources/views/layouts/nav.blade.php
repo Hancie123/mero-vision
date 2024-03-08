@@ -1,5 +1,5 @@
   <!--====================  header area ====================-->
-    <div class="header-area header-area--default">
+    {{-- <div class="header-area header-area--default">
 
         <!-- Header Top Wrap Start -->
         <div class="header-top-wrap border-bottom">
@@ -10,7 +10,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Header Top Wrap End -->
 
         <!-- Header Bottom Wrap Start -->
@@ -23,7 +23,7 @@
                             <!-- brand logo -->
                             <div class="header__logo">
                                 <a href="index.html">
-                                    <img src="assets/images/logo/logo-dark.webp" aria-label="Mitech Logo" width="160" height="48" class="img-fluid" alt="">
+                                    <img src="{{url('assets/img/logo.png')}}" aria-label="Mitech Logo" width="160" height="48" class="img-fluid" alt="">
                                 </a>
                             </div>
 

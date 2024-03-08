@@ -5,11 +5,11 @@
                 <div class="row footer-widget-wrapper">
                     <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
                         <div class="footer-widget__logo mb-30">
-                            <img src="assets/images/logo/dark-logo-160x48.webp" width="160" height="48"
+                            <img src="{{url('assets/img/logo.png')}}" width="160" height="48"
                                 class="img-fluid" alt="">
                         </div>
                         <ul class="footer-widget__list">
-                            <li>58 Howard Street #2 San Francisco, CA 941</li>
+                            <li>Shankamul, New Baneshwor, Kathmandu</li>
                             <li><a href="mailto:contact@aeroland.com" class="hover-style-link">contact@aeroland.com</a>
                             </li>
                             <li><a href="tel:123344556" class="hover-style-link text-black font-weight--bold">(+68)1221
