@@ -544,7 +544,7 @@
                                     <span class="fas fa-phone"></span>
                                 </div>
                                 <h6 class="heading font-weight--reguler">Reach out now!</h6>
-                                <h2 class="call-us"><a href="tel:190068668">1900 68668</a></h2>
+                                <h2 class="call-us"><a href="tel:9825915122">9825915122</a></h2>
                                 <div class="contact-us-button mt-20">
                                     <a href="#" class="btn btn--secondary">Contact us</a>
                                 </div>
