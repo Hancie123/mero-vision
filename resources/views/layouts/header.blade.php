@@ -2,13 +2,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <x-meta title="Hello World" 
+    <x-meta title="Mero Vision" 
     card="summary"
     description="Blade components are awesome!" 
-    image="http://example.com/social.jpg" />
+    image="{{url('assets/img/logo.png')}}" />
 
     
-    <link rel="icon" href="assets/images/favicon.webp">
+    <link rel="icon" href="{{url('assets/img/logo.png')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
