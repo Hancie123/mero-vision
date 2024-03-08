@@ -32,9 +32,8 @@
                     <div class="row align-items-center"><!--baseline-->
                         <div class="col-lg-6 col-md-6">
                             <div class="infotechno-hero-text  wow move-up">
-                                <h6>IT Design & Consulting </h6>
-                                <h1 class="font-weight--reguler mb-15">Facilitate All <br> Local IT-related Service
-                                    Providers </h1>
+                                <h6>IT Services & Consulting </h6>
+                                <h1 class="font-weight--reguler mb-15">Empowering Your Digital Journey <br>With Mero Vision's IT Solutions </h1>
                                 <p>Highly Tailored IT Design, Management & Support Services. </p>
                                 <div class="hero-button  mt-30">
                                     <a href="#" class="ht-btn ht-btn-md">Get details</a>
