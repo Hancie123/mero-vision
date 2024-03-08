@@ -22,3 +22,4 @@
     <link rel="stylesheet" href="{{ url('assets/css/vendor.min.css') }}">
     <link rel="stylesheet" href="{{ url('assets/css/plugins.min.css') }}">
     <link rel="stylesheet" href="{{ url('assets/css/style.css') }}">
+    <meta name="google-site-verification" content="SHwata0suD1fElUZQlq0Zv5bxNVFp0Jw6GCRkbccw_U" />
