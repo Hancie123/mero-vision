@@ -108,7 +108,8 @@
                                                                       class="text-dark">About Us</span></a>
 
                                                           </li>
-                                                          <li class="{{ Request()->is('our-team') ? 'active' : '' }}"><a href="{{url('our-team')}}"><span
+                                                          <li class="{{ Request()->is('our-team') ? 'active' : '' }}">
+                                                              <a href="{{ url('our-team') }}"><span
                                                                       class="text-dark">Our
                                                                       Team</span></a></li>
                                                           <li

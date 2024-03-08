@@ -20,30 +20,30 @@
                     <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                         <h6 class="footer-widget__title mb-20">IT Services</h6>
                         <ul class="footer-widget__list">
-                            <li><a href="#" class="hover-style-link">Managed IT</a></li>
-                            <li><a href="#" class="hover-style-link">IT Support</a></li>
-                            <li><a href="#" class="hover-style-link">IT Consultancy</a></li>
-                            <li><a href="#" class="hover-style-link">Cloud Computing</a></li>
-                            <li><a href="#" class="hover-style-link">Cyber Security</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                        <h6 class="footer-widget__title mb-20">Quick links</h6>
-                        <ul class="footer-widget__list">
-                            <li><a href="#" class="hover-style-link">Pick up locations</a></li>
-                            <li><a href="#" class="hover-style-link">Terms of Payment</a></li>
-                            <li><a href="#" class="hover-style-link">Privacy Policy</a></li>
-                            <li><a href="#" class="hover-style-link">Where to Find Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                        <h6 class="footer-widget__title mb-20">Services</h6>
-                        <ul class="footer-widget__list">
                             <li><a href="#" class="hover-style-link">Web App Development</a></li>
                             <li><a href="#" class="hover-style-link">Website/eCommerce</a></li>
                             <li><a href="#" class="hover-style-link">Mobile App Development</a></li>
                             <li><a href="#" class="hover-style-link">Desktop App Development</a></li>
                             <li><a href="#" class="hover-style-link">AI Projects</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
+                        <h6 class="footer-widget__title mb-20">Quick links</h6>
+                        <ul class="footer-widget__list">
+                            <li><a href="{{url('about')}}" class="hover-style-link">About Us</a></li>
+                            <li><a href="{{url('technology-stack')}}" class="hover-style-link">Our Team</a></li>
+                            <li><a href="#" class="hover-style-link">Privacy Policy</a></li>
+                            <li><a href="#" class="hover-style-link">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
+                        <h6 class="footer-widget__title mb-20">Other Services</h6>
+                        <ul class="footer-widget__list">
+                            <li><a href="#" class="hover-style-link">AWS Web Hosting</a></li>
+                            <li><a href="#" class="hover-style-link">Social Media Marketing</a></li>
+                            <li><a href="#" class="hover-style-link">Wordpress Web Hosting</a></li>
+                            <li><a href="#" class="hover-style-link">SEO</a></li>
+                            <li><a href="#" class="hover-style-link">Digital Marketing</a></li>
                         </ul>
                     </div>
                      <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
