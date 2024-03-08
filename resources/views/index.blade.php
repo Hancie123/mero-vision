@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="zxx" dir="ltr">
+<html>
 
 <head>
     @include('layouts.header')
@@ -306,7 +306,7 @@
                                                     01
                                                 </div>
                                                 <div class="title-wrap">
-                                                    <h6 class="title">How we can help your business? </h6>
+                                                    <h6 class="title">Mero Vision offers a range of IT services.</h6>
                                                 </div>
                                             </div>
                                         </a>
@@ -318,7 +318,7 @@
                                                     02
                                                 </div>
                                                 <div class="title-wrap">
-                                                    <h6 class="title">Why become our partner? </h6>
+                                                    <h6 class="title">We offer ongoing support and maintenance services.</h6>
                                                 </div>
                                             </div>
                                         </a>
@@ -328,7 +328,7 @@
                                             <div class="list-header">
                                                 <div class="marker"> 03</div>
                                                 <div class="title-wrap">
-                                                    <h6 class="title"> What are the best of Mitech? </h6>
+                                                    <h6 class="title"> We have extensive experience collaborating with clients.</h6>
                                                 </div>
                                             </div>
                                         </a>
