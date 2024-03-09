@@ -90,15 +90,15 @@
                                                       </ul>
                                                   </li>
 
-                                                  <li class="{{ Request()->is('/blog') ? 'active' : '' }}">
+                                                  {{-- <li class="{{ Request()->is('/blog') ? 'active' : '' }}">
                                                       <a href="{{ url('#') }}"><span>Projects</span></a>
 
-                                                  </li>
+                                                  </li> --}}
 
-                                                  <li class="{{ Request()->is('/blog') ? 'active' : '' }}">
+                                                  {{-- <li class="{{ Request()->is('/blog') ? 'active' : '' }}">
                                                       <a href="{{ url('#') }}"><span>Blog</span></a>
 
-                                                  </li>
+                                                  </li> --}}
 
                                                   <li class="has-children has-children--multilevel-submenu">
                                                       <a href="#"><span>About</span></a>
@@ -122,10 +122,10 @@
                                                       </ul>
                                                   </li>
 
-                                                  <li class="{{ Request()->is('/blog') ? 'active' : '' }}">
+                                                  {{-- <li class="{{ Request()->is('/blog') ? 'active' : '' }}">
                                                       <a href="{{ url('#') }}"><span>Careers</span></a>
 
-                                                  </li>
+                                                  </li> --}}
 
 
 
